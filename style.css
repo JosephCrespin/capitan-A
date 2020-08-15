@@ -1,0 +1,1698 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  background: transparent;
+  vertical-align: baseline;
+}
+
+/* //////// CAPITAN GRANDE //////// */
+#capitanGrande {
+  display: grid;
+  grid-template-rows: 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px;
+  grid-template-columns: 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px;
+  visibility: visible;
+}
+
+/* /////// CAPITAN XIQUI ///////// */
+#capitanPequeño {
+  display: grid;
+  grid-template-columns: 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px;
+  grid-template-rows: 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px;
+  display: none;
+}
+
+/* //////////// COLORES /////////// */
+.azul {
+  background-color: blue;
+  width: 35px;
+  height: 35px;
+}
+
+.rojo {
+  background-color: red;
+  width: 35px;
+  height: 35px;
+}
+
+.negro {
+  background-color: black;
+  width: 35px;
+  height: 35px;
+}
+
+.carne {
+  background-color: #c48343;
+  width: 35px;
+  height: 35px;
+}
+
+/*///////// srCAPITAN ////////// */
+#cuadroUno {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+#cuadroDos {
+  grid-row: 1;
+  grid-column: 13;
+}
+
+#cuadroTres {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+#cuadroCuatro {
+  grid-row: 2;
+  grid-column: 3;
+}
+
+#cuadroCinco {
+  grid-row: 2;
+  grid-column: 12;
+}
+
+#cuadroSeis {
+  grid-row: 2;
+  grid-column: 14;
+}
+
+#cuadroSiete {
+  grid-row: 3;
+  grid-column: 1;
+}
+
+#cuadroOcho {
+  grid-row: 3;
+  grid-column: 4;
+}
+
+#cuadroNueve {
+  grid-row: 3;
+  grid-column: 5;
+}
+
+#cuadroDiez {
+  grid-row: 3;
+  grid-column: 6;
+}
+
+#cuadroOnce {
+  grid-row: 3;
+  grid-column: 7;
+}
+
+#cuadroDoce {
+  grid-row: 3;
+  grid-column: 8;
+}
+
+#cuadroTrece {
+  grid-row: 3;
+  grid-column: 9;
+}
+
+#cuadroCatorce {
+  grid-row: 3;
+  grid-column: 10;
+}
+
+#cuadroQuince {
+  grid-row: 3;
+  grid-column: 11;
+}
+
+#cuadroDieciseis {
+  grid-row: 3;
+  grid-column: 14;
+}
+
+#cuadroDiecisiete {
+  grid-row: 4;
+  grid-column: 1;
+}
+
+#cuadroDieciocho {
+  grid-row: 4;
+  grid-column: 3;
+}
+
+#cuadroDiecinueve {
+  grid-row: 4;
+  grid-column: 4;
+}
+
+#cuadroVeinte {
+  grid-row: 4;
+  grid-column: 5;
+}
+
+#cuadroVeintiuno {
+  grid-row: 4;
+  grid-column: 9;
+}
+
+#cuadroVeintidos {
+  grid-row: 4;
+  grid-column: 10;
+}
+
+#cuadroVeintitres {
+  grid-row: 4;
+  grid-column: 11;
+}
+
+#cuadroVeinticuatro {
+  grid-row: 4;
+  grid-column: 12;
+}
+
+#cuadroVeinticinco {
+  grid-row: 4;
+  grid-column: 14;
+}
+
+#cuadroVeintiseis {
+  grid-row: 5;
+  grid-column: 2;
+}
+
+#cuadroVeintisiete {
+  grid-row: 5;
+  grid-column: 3;
+}
+
+#cuadroVeintiocho {
+  grid-row: 5;
+  grid-column: 4;
+}
+
+#cuadroVeintinueve {
+  grid-row: 5;
+  grid-column: 5;
+}
+
+#cuadroTreinta {
+  grid-row: 5;
+  grid-column: 7;
+}
+
+#cuadroTreintauno {
+  grid-row: 5;
+  grid-column: 9;
+}
+
+#cuadroTreintados {
+  grid-row: 5;
+  grid-column: 10;
+}
+
+#cuadroTreintacuatro {
+  grid-row: 5;
+  grid-column: 11;
+}
+
+#cuadroTreintacinco {
+  grid-row: 5;
+  grid-column: 12;
+}
+
+#cuadroTreintaseis {
+  grid-row: 5;
+  grid-column: 13;
+}
+
+#cuadroTreintasiete {
+  grid-row: 6;
+  grid-column: 2;
+}
+
+#cuadroTreintaocho {
+  grid-row: 6;
+  grid-column: 3;
+}
+
+#cuadroTreintanueve {
+  grid-row: 6;
+  grid-column: 4;
+}
+
+#cuadroCuarenta {
+  grid-row: 6;
+  grid-column: 5;
+}
+
+#cuadroCuarentauno {
+  grid-row: 6;
+  grid-column: 9;
+}
+
+#cuadroCuarentados {
+  grid-row: 6;
+  grid-column: 10;
+}
+
+#cuadroCuarentatres {
+  grid-row: 6;
+  grid-column: 11;
+}
+
+#cuadroCuarentacuatro {
+  grid-row: 6;
+  grid-column: 12;
+}
+
+#cuadroCuarentacinco {
+  grid-row: 6;
+  grid-column: 13;
+}
+
+#cuadroCuarentaseis {
+  grid-row: 7;
+  grid-column: 2;
+}
+
+#cuadroCuarentasiete {
+  grid-row: 7;
+  grid-column: 3;
+}
+
+#cuadroCuarentaocho {
+  grid-row: 7;
+  grid-column: 4;
+}
+
+#cuadroCuarentanueve {
+  grid-row: 7;
+  grid-column: 5;
+}
+
+#cuadroCincuenta {
+  grid-row: 7;
+  grid-column: 7;
+}
+
+#cuadroCincuentauno {
+  grid-row: 7;
+  grid-column: 9;
+}
+
+#cuadroCincuentados {
+  grid-row: 7;
+  grid-column: 10;
+}
+
+#cuadroCincuentatres {
+  grid-row: 7;
+  grid-column: 11;
+}
+
+#cuadroCincuentacuatro {
+  grid-row: 7;
+  grid-column: 12;
+}
+
+#cuadroCincuentacinco {
+  grid-row: 7;
+  grid-column: 13;
+}
+
+#cuadroCincuentaseis {
+  grid-row: 8;
+  grid-column: 2;
+}
+
+#cuadroCincuentasiete {
+  grid-row: 8;
+  grid-column: 3;
+}
+
+#cuadroCincuentaocho {
+  grid-row: 8;
+  grid-column: 4;
+}
+
+#cuadroCincuentanueve {
+  grid-row: 8;
+  grid-column: 5;
+}
+
+#cuadroSesenta {
+  grid-row: 8;
+  grid-column: 6;
+}
+
+#cuadroSesentauno {
+  grid-row: 8;
+  grid-column: 7;
+}
+
+#cuadroSesentados {
+  grid-row: 8;
+  grid-column: 8;
+}
+
+#cuadroSesentatres {
+  grid-row: 8;
+  grid-column: 9;
+}
+
+#cuadroSesentacuatro {
+  grid-row: 8;
+  grid-column: 10;
+}
+
+#cuadroSesentacinco {
+  grid-row: 8;
+  grid-column: 11;
+}
+
+#cuadroSesentaseis {
+  grid-row: 8;
+  grid-column: 12;
+}
+
+#cuadroSesentasiete {
+  grid-row: 8;
+  grid-column: 13;
+}
+
+#cuadroSesentaocho {
+  grid-row: 9;
+  grid-column: 2;
+}
+
+#cuadroSesentanueve {
+  grid-row: 9;
+  grid-column: 3;
+}
+
+#cuadroSetenta {
+  grid-row: 9;
+  grid-column: 4;
+}
+
+#cuadroSetentauno {
+  grid-row: 9;
+  grid-column: 5;
+}
+
+#cuadroSetentados {
+  grid-row: 9;
+  grid-column: 6;
+}
+
+#cuadroSetentatres {
+  grid-row: 9;
+  grid-column: 7;
+}
+
+#cuadroSetentacuatro {
+  grid-row: 9;
+  grid-column: 8;
+}
+
+#cuadroSetentacinco {
+  grid-row: 9;
+  grid-column: 9;
+}
+
+#cuadroSetentaseis {
+  grid-row: 9;
+  grid-column: 10;
+}
+
+#cuadroSetentasiete {
+  grid-row: 9;
+  grid-column: 11;
+}
+
+#cuadroSetentaocho {
+  grid-row: 9;
+  grid-column: 12;
+}
+
+#cuadroSetentanueve {
+  grid-row: 9;
+  grid-column: 13;
+}
+
+#cuadroOchenta {
+  grid-row: 10;
+  grid-column: 2;
+}
+
+#cuadroOchentauno {
+  grid-row: 10;
+  grid-column: 3;
+}
+
+#cuadroOchentados {
+  grid-row: 10;
+  grid-column: 4;
+}
+
+#cuadroOchentatres {
+  grid-row: 10;
+  grid-column: 5;
+}
+
+#cuadroOchentacuatro {
+  grid-row: 10;
+  grid-column: 6;
+}
+
+#cuadroOchentacinco {
+  grid-row: 10;
+  grid-column: 7;
+}
+
+#cuadroOchentaseis {
+  grid-row: 10;
+  grid-column: 8;
+}
+
+#cuadroOchentasiete {
+  grid-row: 10;
+  grid-column: 9;
+}
+
+#cuadroOchentaocho {
+  grid-row: 10;
+  grid-column: 10;
+}
+
+#cuadroOchentanueve {
+  grid-row: 10;
+  grid-column: 11;
+}
+
+#cuadroNoventa {
+  grid-row: 10;
+  grid-column: 12;
+}
+
+#cuadroNoventauno {
+  grid-row: 10;
+  grid-column: 13;
+}
+
+#cuadroNoventados {
+  grid-row: 10;
+  grid-column: 14;
+}
+
+#cuadroNoventatres {
+  grid-row: 11;
+  grid-column: 2;
+}
+
+#cuadroNoventacuatro {
+  grid-row: 11;
+  grid-column: 3;
+}
+
+#cuadroNoventacinco {
+  grid-row: 11;
+  grid-column: 4;
+}
+
+#cuadroNoventaseis {
+  grid-row: 11;
+  grid-column: 5;
+}
+
+#cuadroNoventasiete {
+  grid-row: 11;
+  grid-column: 6;
+}
+
+#cuadroNoventaocho {
+  grid-row: 11;
+  grid-column: 7;
+}
+
+#cuadroNoventanueve {
+  grid-row: 11;
+  grid-column: 8;
+}
+
+#cuadroCien {
+  grid-row: 11;
+  grid-column: 9;
+}
+
+#cuadroCienuno {
+  grid-row: 11;
+  grid-column: 10;
+}
+
+#cuadroCiendos {
+  grid-row: 11;
+  grid-column: 11;
+}
+
+#cuadroCientres {
+  grid-row: 11;
+  grid-column: 12;
+}
+
+#cuadroCiencuatro {
+  grid-row: 11;
+  grid-column: 13;
+}
+
+#cuadroCiencinco {
+  grid-row: 11;
+  grid-column: 14;
+}
+
+#cuadroCienseis {
+  grid-row: 11;
+  grid-column: 15;
+}
+
+#cuadroCiensiete {
+  grid-row: 12;
+  grid-column: 2;
+}
+
+#cuadroCienocho {
+  grid-row: 12;
+  grid-column: 3;
+}
+
+#cuadroCiennueve {
+  grid-row: 12;
+  grid-column: 4;
+}
+
+#cuadroDoscientos {
+  grid-row: 12;
+  grid-column: 5;
+}
+
+#cuadroDoscientosuno {
+  grid-row: 12;
+  grid-column: 6;
+}
+
+#cuadroDoscientosdos {
+  grid-row: 12;
+  grid-column: 7;
+}
+
+#cuadroDoscientostres {
+  grid-row: 12;
+  grid-column: 8;
+}
+
+#cuadroDoscientoscuatro {
+  grid-row: 12;
+  grid-column: 9;
+}
+
+#cuadroDoscientoscinco {
+  grid-row: 12;
+  grid-column: 10;
+}
+
+#cuadroDoscientosseis {
+  grid-row: 12;
+  grid-column: 11;
+}
+
+#cuadroDoscientossiete {
+  grid-row: 12;
+  grid-column: 15;
+}
+
+#cuadroDoscientosocho {
+  grid-row: 12;
+  grid-column: 16;
+}
+
+#cuadroDoscientosnueve {
+  grid-row: 13;
+  grid-column: 4;
+}
+
+#cuadroTrescientos {
+  grid-row: 13;
+  grid-column: 5;
+}
+
+#cuadroTrescientosuno {
+  grid-row: 13;
+  grid-column: 6;
+}
+
+#cuadroTrescientosdos {
+  grid-row: 13;
+  grid-column: 7;
+}
+
+#cuadroTrescientostres {
+  grid-row: 13;
+  grid-column: 8;
+}
+
+#cuadroTrescientoscuatro {
+  grid-row: 13;
+  grid-column: 9;
+}
+
+#cuadroTrescientoscinco {
+  grid-row: 13;
+  grid-column: 10;
+}
+
+#cuadroTrescientosseis {
+  grid-row: 13;
+  grid-column: 12;
+}
+
+#cuadroTrescientossiete {
+  grid-row: 13;
+  grid-column: 13;
+}
+
+#cuadroTrescientosocho {
+  grid-row: 13;
+  grid-column: 14;
+}
+
+#cuadroTrescientosnueve {
+  grid-row: 13;
+  grid-column: 16;
+}
+
+#cuadroCuatrocientos {
+  grid-row: 13;
+  grid-column: 17;
+}
+
+#cuadroCuatrocientosuno {
+  grid-row: 14;
+  grid-column: 3;
+}
+
+#cuadroCuatrocientosdos {
+  grid-row: 14;
+  grid-column: 4;
+}
+
+#cuadroCuatrocientostres {
+  grid-row: 14;
+  grid-column: 5;
+}
+
+#cuadroCuatrocientoscuatro {
+  grid-row: 14;
+  grid-column: 6;
+}
+
+#cuadroCuatrocientoscinco {
+  grid-row: 14;
+  grid-column: 7;
+}
+
+#cuadroCuatrocientosseis {
+  grid-row: 14;
+  grid-column: 8;
+}
+
+#cuadroCuatrocientossiete {
+  grid-row: 14;
+  grid-column: 9;
+}
+
+#cuadroCuatrocientosocho {
+  grid-row: 14;
+  grid-column: 11;
+}
+
+#cuadroCuatrocientosnueve {
+  grid-row: 14;
+  grid-column: 12;
+}
+
+#cuadroQuinientos {
+  grid-row: 14;
+  grid-column: 13;
+}
+
+#cuadroQuinientosuno {
+  grid-row: 14;
+  grid-column: 14;
+}
+
+#cuadroQuinientosdos {
+  grid-row: 14;
+  grid-column: 15;
+}
+
+#cuadroQuinientostres {
+  grid-row: 14;
+  grid-column: 17;
+}
+
+#cuadroQuinientoscuatro {
+  grid-row: 14;
+  grid-column: 18;
+}
+
+#cuadroQuinientoscinco {
+  grid-row: 15;
+  grid-column: 2;
+}
+
+#cuadroQuinientosseis {
+  grid-row: 15;
+  grid-column: 3;
+}
+
+#cuadroQuinientossiete {
+  grid-row: 15;
+  grid-column: 4;
+}
+
+#cuadroQuinientosocho {
+  grid-row: 15;
+  grid-column: 5;
+}
+
+#cuadroQuinientosnueve {
+  grid-row: 15;
+  grid-column: 6;
+}
+
+#cuadroSeiscientos {
+  grid-row: 15;
+  grid-column: 8;
+}
+
+#cuadroSeiscientosuno {
+  grid-row: 15;
+  grid-column: 9;
+}
+
+#cuadroSeiscientosdos {
+  grid-row: 15;
+  grid-column: 11;
+}
+
+#cuadroSeiscientostres {
+  grid-row: 15;
+  grid-column: 12;
+}
+
+#cuadroSeiscientoscuatro {
+  grid-row: 15;
+  grid-column: 14;
+}
+
+#cuadroSeiscientoscinco {
+  grid-row: 15;
+  grid-column: 15;
+}
+
+#cuadroSeiscientosseis {
+  grid-row: 15;
+  grid-column: 17;
+}
+
+#cuadroSeiscientossiete {
+  grid-row: 15;
+  grid-column: 18;
+}
+
+#cuadroSeiscientosocho {
+  grid-row: 16;
+  grid-column: 2;
+}
+
+#cuadroSeiscientosnueve {
+  grid-row: 16;
+  grid-column: 4;
+}
+
+#cuadroSetecientos {
+  grid-row: 16;
+  grid-column: 5;
+}
+
+#cuadroSetecientosuno {
+  grid-row: 16;
+  grid-column: 6;
+}
+
+#cuadroSetecientosdos {
+  grid-row: 16;
+  grid-column: 7;
+}
+
+#cuadroSetecientostres {
+  grid-row: 16;
+  grid-column: 8;
+}
+
+#cuadroSetecientoscuatro {
+  grid-row: 16;
+  grid-column: 9;
+}
+
+#cuadroSetecientoscinco {
+  grid-row: 16;
+  grid-column: 11;
+}
+
+#cuadroSetecientosseis {
+  grid-row: 16;
+  grid-column: 12;
+}
+
+#cuadroSetecientossiete {
+  grid-row: 16;
+  grid-column: 13;
+}
+
+#cuadroSetecientosocho {
+  grid-row: 16;
+  grid-column: 14;
+}
+
+#cuadroSetecientosnueve {
+  grid-row: 16;
+  grid-column: 15;
+}
+
+#cuadroOchocientos {
+  grid-row: 16;
+  grid-column: 17;
+}
+
+#cuadroOchocientosuno {
+  grid-row: 16;
+  grid-column: 18;
+}
+
+#cuadroOchocientosdos {
+  grid-row: 17;
+  grid-column: 2;
+}
+
+#cuadroOchocientostres {
+  grid-row: 17;
+  grid-column: 3;
+}
+
+#cuadroOchocientoscuatro {
+  grid-row: 17;
+  grid-column: 4;
+}
+
+#cuadroOchocientoscinco {
+  grid-row: 17;
+  grid-column: 6;
+}
+
+#cuadroOchocientosseis {
+  grid-row: 17;
+  grid-column: 8;
+}
+
+#cuadroOchocientossiete {
+  grid-row: 17;
+  grid-column: 9;
+}
+
+#cuadroOchocientosocho {
+  grid-row: 17;
+  grid-column: 10;
+}
+
+#cuadroOchocientosnueve {
+  grid-row: 17;
+  grid-column: 12;
+}
+
+#cuadroNovecientos {
+  grid-row: 17;
+  grid-column: 13;
+}
+
+#cuadroNovecientosuno {
+  grid-row: 17;
+  grid-column: 14;
+}
+
+#cuadroNovecientosdos {
+  grid-row: 17;
+  grid-column: 16;
+}
+
+#cuadroNovecientostres {
+  grid-row: 17;
+  grid-column: 17;
+}
+
+#cuadroNovecientoscuatro {
+  grid-row: 18;
+  grid-column: 3;
+}
+
+#cuadroNovecientoscinco {
+  grid-row: 18;
+  grid-column: 4;
+}
+
+#cuadroNovecientosseis {
+  grid-row: 18;
+  grid-column: 6;
+}
+
+#cuadroNovecientossiete {
+  grid-row: 18;
+  grid-column: 8;
+}
+
+#cuadroNovecientosocho {
+  grid-row: 18;
+  grid-column: 10;
+}
+
+#cuadroNovecientosnueve {
+  grid-row: 18;
+  grid-column: 11;
+}
+
+#cuadroMil {
+  grid-row: 18;
+  grid-column: 15;
+}
+
+#cuadroMiluno {
+  grid-row: 18;
+  grid-column: 16;
+}
+
+#cuadroMildos {
+  grid-row: 19;
+  grid-column: 4;
+}
+
+#cuadroMiltres {
+  grid-row: 19;
+  grid-column: 5;
+}
+
+#cuadroMilcuatro {
+  grid-row: 19;
+  grid-column: 6;
+}
+
+#cuadroMilcinco {
+  grid-row: 19;
+  grid-column: 7;
+}
+
+#cuadroMilseis {
+  grid-row: 19;
+  grid-column: 8;
+}
+
+#cuadroMilsiete {
+  grid-row: 19;
+  grid-column: 9;
+}
+
+#cuadroMilocho {
+  grid-row: 19;
+  grid-column: 10;
+}
+
+#cuadroMilnueve {
+  grid-row: 19;
+  grid-column: 11;
+}
+
+#cuadroMildiez {
+  grid-row: 19;
+  grid-column: 12;
+}
+
+#cuadroMilonce {
+  grid-row: 19;
+  grid-column: 13;
+}
+
+#cuadroMildoce {
+  grid-row: 19;
+  grid-column: 14;
+}
+
+#cuadroMiltrece {
+  grid-row: 19;
+  grid-column: 15;
+}
+
+#cuadroMilcatorce {
+  grid-row: 20;
+  grid-column: 4;
+}
+
+#cuadroMilquince {
+  grid-row: 20;
+  grid-column: 5;
+}
+
+#cuadroMildieciseis {
+  grid-row: 20;
+  grid-column: 6;
+}
+
+#cuadroMildiecisiete {
+  grid-row: 20;
+  grid-column: 7;
+}
+
+#cuadroMildieciocho {
+  grid-row: 20;
+  grid-column: 8;
+}
+
+#cuadroMildiecinueve {
+  grid-row: 20;
+  grid-column: 9;
+}
+
+#cuadroMilveinte {
+  grid-row: 20;
+  grid-column: 10;
+}
+
+#cuadroMilveintiuno {
+  grid-row: 20;
+  grid-column: 11;
+}
+
+#cuadroMilveintidos {
+  grid-row: 20;
+  grid-column: 12;
+}
+
+#cuadroMilveintitres {
+  grid-row: 20;
+  grid-column: 13;
+}
+
+#cuadroMilveinticuatro {
+  grid-row: 20;
+  grid-column: 14;
+}
+
+#cuadroMilveinticinco {
+  grid-row: 21;
+  grid-column: 4;
+}
+
+#cuadroMilveintiseis {
+  grid-row: 21;
+  grid-column: 5;
+}
+
+#cuadroMilveintisiete {
+  grid-row: 21;
+  grid-column: 6;
+}
+
+#cuadroMilveintiocho {
+  grid-row: 21;
+  grid-column: 9;
+}
+
+#cuadroMilveintinueve {
+  grid-row: 21;
+  grid-column: 10;
+}
+
+#cuadroMiltreinta {
+  grid-row: 21;
+  grid-column: 11;
+}
+
+/* CAPITAN XIQUITO */
+.xiqui {
+  width: 35px;
+  height: 35px;
+}
+
+#uno {
+  grid-area: 2/6;
+}
+
+#dos {
+  grid-area: 2/7;
+}
+
+#tres {
+  grid-area: 2/8;
+}
+
+#cuatro {
+  grid-area: 2/9;
+}
+
+#cinco {
+  grid-area: 3/2;
+}
+
+#seis {
+  grid-area: 3/5;
+}
+
+#siete {
+  grid-area: 3/6;
+}
+
+#ocho {
+  grid-area: 3/7;
+}
+
+#nueve {
+  grid-area: 3/8;
+}
+
+#diez {
+  grid-area: 3/9;
+}
+
+#once {
+  grid-area: 3/10;
+}
+
+#doce {
+  grid-area: 3/13;
+}
+
+#trece {
+  grid-area: 4/1;
+}
+
+#catorce {
+  grid-area: 4/3;
+}
+
+#quince {
+  grid-area: 4/4;
+}
+
+#dieciseis {
+  grid-area: 4/5;
+}
+
+#diecisiete {
+  grid-area: 4/6;
+}
+
+#dieciocho {
+  grid-area: 4/9;
+}
+
+#diecinueve {
+  grid-area: 4/10;
+}
+
+#veinte {
+  grid-area: 4/11;
+}
+
+#veintiUno {
+  grid-area: 4/12;
+}
+
+#veintiDos {
+  grid-area: 4/14;
+}
+
+#veintiTres {
+  grid-area: 5/2;
+}
+
+#veintiCuatro {
+  grid-area: 5/4;
+}
+
+#veintiCinco {
+  grid-area: 5/5;
+}
+
+#veintiSeis {
+  grid-area: 5/10;
+}
+
+#veintiSiete {
+  grid-area: 5/11;
+}
+
+#veintiOcho {
+  grid-area: 5/13;
+}
+
+#veintiNueve {
+  grid-area: 6/3;
+}
+
+#treinta {
+  grid-area: 6/4;
+}
+
+#treintaUno {
+  grid-area: 6/5;
+}
+
+#treintaDos {
+  grid-area: 6/6;
+}
+
+#treintaTres {
+  grid-area: 6/7;
+}
+
+#treintaCuatro {
+  grid-area: 6/8;
+}
+
+#treintaCinco {
+  grid-area: 6/9;
+}
+
+#treintaSeis {
+  grid-area: 6/10;
+}
+
+#treintaSiete {
+  grid-area: 6/11;
+}
+
+#treintaOcho {
+  grid-area: 6/12;
+}
+
+#treintaNueve {
+  grid-area: 7/4;
+}
+
+#cuarenta {
+  grid-area: 7/5;
+}
+
+#cuarentaUno {
+  grid-area: 7/6;
+}
+
+#cuarentaDos {
+  grid-area: 7/7;
+}
+
+#cuarentaTres {
+  grid-area: 7/8;
+}
+
+#cuarentaCuatro {
+  grid-area: 7/9;
+}
+
+#cuarentaCinco {
+  grid-area: 7/10;
+}
+
+#cuarentaSeis {
+  grid-area: 7/11;
+}
+
+#cuarentaSiete {
+  grid-area: 8/3;
+}
+
+#cuarentaOcho {
+  grid-area: 8/4;
+}
+
+#cuarentaNueve {
+  grid-area: 8/5;
+}
+
+#cincuenta {
+  grid-area: 8/6;
+}
+
+#cincuentaUno {
+  grid-area: 8/7;
+}
+
+#cincuentaDos {
+  grid-area: 8/8;
+}
+
+#cincuentaTres {
+  grid-area: 8/9;
+}
+
+#cincuentaCuatro {
+  grid-area: 8/10;
+}
+
+#cincuentaCinco {
+  grid-area: 8/11;
+}
+
+#cincuentaSeis {
+  grid-area: 8/12;
+}
+
+#cincuentaSiete {
+  grid-area: 9/2;
+}
+
+#cincuentaOcho {
+  grid-area: 9/3;
+}
+
+#cincuentaNueve {
+  grid-area: 9/4;
+}
+
+#sesenta {
+  grid-area: 9/5;
+}
+
+#sesentaUno {
+  grid-area: 9/6;
+}
+
+#sesentaDos {
+  grid-area: 9/7;
+}
+
+#sesentaTres {
+  grid-area: 9/8;
+}
+
+#sesentaCuatro {
+  grid-area: 9/9;
+}
+
+#sesentaCinco {
+  grid-area: 9/10;
+}
+
+#sesentaSeis {
+  grid-area: 9/11;
+}
+
+#sesentaSiete {
+  grid-area: 9/12;
+}
+
+#sesentaOcho {
+  grid-area: 9/13;
+}
+
+#sesentaNueve {
+  grid-area: 10/1;
+}
+
+#ochenta {
+  grid-area: 10/2;
+}
+
+#ochentaUno {
+  grid-area: 10/3;
+}
+
+#ochentaDos {
+  grid-area: 10/4;
+}
+
+#ochentaTres {
+  grid-area: 10/5;
+}
+
+#ochentaCuatro {
+  grid-area: 10/6;
+}
+
+#ochentaCinco {
+  grid-area: 10/7;
+}
+
+#ochentaSeis {
+  grid-area: 10/8;
+}
+
+#ochentaSiete {
+  grid-area: 10/9;
+}
+
+#ochentaOcho {
+  grid-area: 10/10;
+}
+
+#ochentaNueve {
+  grid-area: 10/11;
+}
+
+#noventa {
+  grid-area: 10/12;
+}
+
+#noventaUno {
+  grid-area: 10/13;
+}
+
+#noventaDos {
+  grid-area: 10/14;
+}
+
+#noventaTres {
+  grid-area: 11/1;
+}
+
+#noventaCuatro {
+  grid-area: 11/2;
+}
+
+#noventaCinco {
+  grid-area: 11/3;
+}
+
+#noventaSeis {
+  grid-area: 11/4;
+}
+
+#noventaSiete {
+  grid-area: 11/5;
+}
+
+#noventaOcho {
+  grid-area: 11/6;
+}
+
+#noventaNueve {
+  grid-area: 11/9;
+}
+
+#cien {
+  grid-area: 11/10;
+}
+
+#cienUno {
+  grid-area: 11/11;
+}
+
+#cienDos {
+  grid-area: 11/12;
+}
+
+#cienTres {
+  grid-area: 11/13;
+}
+
+#cienCuatro {
+  grid-area: 11/14;
+}
+
+#cienCinco {
+  grid-area: 12/1;
+}
+
+#cienSeis {
+  grid-area: 12/2;
+}
+
+#cienSiete {
+  grid-area: 12/3;
+}
+
+#cienOcho {
+  grid-area: 12/4;
+}
+
+#cienNueve {
+  grid-area: 12/5;
+}
+
+#cienDiez {
+  grid-area: 12/7;
+}
+
+#cienOnce {
+  grid-area: 12/9;
+}
+
+#cienDoce {
+  grid-area: 12/11;
+}
+
+#cienTrece {
+  grid-area: 12/12;
+}
+
+#cienCatorce {
+  grid-area: 12/13;
+}
+
+#cienQuince {
+  grid-area: 13/2;
+}
+
+#cienDieciseis {
+  grid-area: 13/3;
+}
+
+#cienDiecisiete {
+  grid-area: 13/4;
+}
+
+#cienDieciocho {
+  grid-area: 13/5;
+}
+
+#cienDiecinueve {
+  grid-area: 13/7;
+}
+
+#cienVeinte {
+  grid-area: 13/9;
+}
+
+#cienVeintiuno {
+  grid-area: 13/11;
+}
+
+#cienVeintidos {
+  grid-area: 14/4;
+}
+
+#cienVeintitres {
+  grid-area: 14/5;
+}
+
+#cienVeinticuatro {
+  grid-area: 14/6;
+}
+
+#cienVeinticinco {
+  grid-area: 14/7;
+}
+
+#cienVeintiseis {
+  grid-area: 14/8;
+}
+
+#cienVeintisiete {
+  grid-area: 14/9;
+}
+
+#cienVeintiocho {
+  grid-area: 14/10;
+}
+
+#cienVeintinueve {
+  grid-area: 14/11;
+}
+
+#cienTreinta {
+  grid-area: 15/4;
+}
+
+#cienTreintaiuno {
+  grid-area: 15/5;
+}
+
+#cienTreintaidos {
+  grid-area: 15/6;
+}
+
+#cienTreintaitres {
+  grid-area: 15/7;
+}
+
+#cienTreintaicuatro {
+  grid-area: 15/8;
+}
+
+#cienTreintaicinco {
+  grid-area: 15/9;
+}
+
+#cienTreintaiseis {
+  grid-area: 15/10;
+}
+
+#cienTreintaisiete {
+  grid-area: 16/5;
+}
+
+#cienTreintaiocho {
+  grid-area: 16/6;
+}
+
+#cienTreintainueve {
+  grid-area: 16/7;
+}
+
+#cienCuarenta {
+  grid-area: 16/8;
+}
+
+#cienCuarentaiuno {
+  grid-area: 16/9;
+}
+
+#cienCuarentaidos {
+  grid-area: 17/6;
+}
+
+#cienCuarentaitres {
+  grid-area: 17/7;
+}
+
+@media only screen and (max-width: 600px) {
+  #capitanGrande {
+    display: none;
+  }
+
+  #capitanPequeño {
+    display: grid;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
